@@ -10,7 +10,7 @@ const Footer = () => {
 					<Logo />
 					<Link
 						href="/"
-						className="flex items-center gap-x-2 text-sm mt-6 text-[#160E64]"
+						className="flex items-center gap-x-2 text-sm mt-6 text-[#160E64] duration-300 ease-in-out hover:text-[#5F53D4]"
 					>
 						<span>
 							<Image
@@ -60,7 +60,7 @@ const Footer = () => {
 					</ul>
 					<div>
 						<Link href="/">
-							<span className="flex items-center">
+							<span className="flex items-center group">
 								<span className="mr-3">
 									<Image
 										src="/images/footer/soc-2.png"
@@ -73,7 +73,7 @@ const Footer = () => {
 								<span className="text-[#160E64] font-medium mr-1">
 									Trust Report
 								</span>
-								<span>
+								<span className="duration-300 ease-in-out group-hover:ml-1">
 									<Image
 										src="/images/footer/arrow-right.png"
 										width={100}

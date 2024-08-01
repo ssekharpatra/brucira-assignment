@@ -2,8 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+header nav ul li a {
+   @apply duration-300 ease-in-out;
+}
+
+header nav ul li a:hover,
+footer .footer-list a:hover,
+footer .footer-copyright a:hover {
+   @apply text-[#5F53D4];
+}
+
 footer .footer-list a {
-   @apply text-sm leading-8 text-[#160E64];
+   @apply text-sm leading-8 text-[#160E64] duration-300 ease-in-out;
 }
 
 footer .footer-list .heading {
@@ -11,5 +21,5 @@ footer .footer-list .heading {
 }
 
 footer .footer-copyright a {
-   @apply text-[#160E64];
+   @apply text-[#160E64] duration-300 ease-in-out;
 }

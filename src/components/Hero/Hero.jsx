@@ -35,16 +35,16 @@ const Hero = () => {
 					accelerate their product-led strategy. 
 				</h2>
 				<form>
-					<div className="w-full rounded-[20px] overflow-hidden bg-white p-2">
+					<div className="w-full rounded-[20px] overflow-hidden bg-white p-2 flex">
 						<input
 							type="email"
 							placeholder="Your work email"
-							className="border-none outline-none px-3"
+							className="border-none outline-none px-3 inline-block h-auto"
 							required
 						/>
 						<button
 							type="submit"
-							className="bg-[#5F53D4] text-white px-7 py-3.5 rounded-[20px]"
+							className="bg-[#5F53D4] text-white px-7 py-3.5 rounded-[20px] hover:bg-[#4d3ed8] duration-300 ease-in-out"
 						>
 							Request Demo
 						</button>
