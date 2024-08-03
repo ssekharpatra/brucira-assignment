@@ -8,7 +8,7 @@ const Button = ({
 }) => {
 	return (
 		<button
-			className={`px-4 py-3 rounded-lg duration-300 ease-in-out ${bgColor} ${textColor} ${className} ${
+			className={`px-4 py-3 rounded-lg duration-300 ease-in-out text-sm font-semibold block ${bgColor} ${textColor} ${className} ${
 				bgColor !== "bg-transparent" ? "hover:bg-[#4d3ed8]" : "hover:underline"
 			}`}
 			{...props}

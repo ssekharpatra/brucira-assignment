@@ -9,6 +9,7 @@ import HeroBgImage from "./Hero/HeroBgImage";
 import Problem from "./TheProblem/Problem";
 import PrimaryHeadings from "./Headings/PrimaryHeadings";
 import SecondaryHeadings from "./Headings/SecondaryHeadings";
+import Solution from "./TheSolution/Solution";
 
 export {
 	Header,
@@ -22,4 +23,5 @@ export {
 	Problem,
 	PrimaryHeadings,
 	SecondaryHeadings,
+	Solution,
 };

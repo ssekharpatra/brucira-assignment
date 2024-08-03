@@ -7,7 +7,7 @@ const Header = () => {
 			<div className="flex justify-between items-center w-11/12 max-w-screen-xl mx-auto py-6">
 				<Logo />
 				<nav>
-					<ul className="flex gap-x-6 text-[#160E64] font-medium">
+					<ul className="flex gap-x-6">
 						<li>
 							<Link href="/">Product</Link>
 						</li>

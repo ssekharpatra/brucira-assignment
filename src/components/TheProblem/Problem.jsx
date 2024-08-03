@@ -40,7 +40,10 @@ const Problem = () => {
 				className="w-[35px] absolute top-[358px] right-[223px]"
 			/>
 			<div className="w-11/12 mx-auto max-w-screen-xl">
-				<PrimaryHeadings />
+				<PrimaryHeadings
+					heading="More data shouldn’t create more problems"
+					subHeading="Your customer data is spread across dashboards, spreadsheets, emails, and more. It’s time you had a 360-degree view of customer data so you can make decisions that drive your business."
+				/>
 				<Image
 					src="/images/the-problem/multiple-dashboards.png"
 					alt=""

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 header nav ul li a {
-   @apply duration-300 ease-in-out;
+   @apply duration-300 ease-in-out text-sm font-medium text-[#160E64];
 }
 
 header nav ul li a:hover,
@@ -22,4 +22,24 @@ footer .footer-list .heading {
 
 footer .footer-copyright a {
    @apply text-[#160E64] duration-300 ease-in-out;
+}
+
+.solution .card {
+   background: linear-gradient(86.05deg, rgba(255, 255, 255, 0) -20.69%, rgba(255, 255, 255, 0.05) 26.72%, rgba(255, 255, 255, 0) 65.6%),
+      rgba(196, 196, 196, 0.04);
+   box-shadow: inset 0px -2.50245px 1.25122px rgba(255, 255, 255, 0.1);
+   backdrop-filter: blur(18.7684px);
+   @apply w-1/3 relative text-center p-[100px_20px_56px] rounded-[32px];
+}
+
+.solution .card span {
+   @apply absolute -top-[15%] left-1/2 -translate-x-1/2;
+}
+
+.solution .card h6 {
+   @apply text-white text-2xl mb-3;
+}
+
+.solution .card p {
+   @apply text-white opacity-60 font-medium max-w-[90%] mx-auto;
 }
